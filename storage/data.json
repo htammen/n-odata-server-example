@@ -1,0 +1,36 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "person": 13,
+    "Customer": 3,
+    "Contact": 3
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "person": {
+      "1": "{\"firstname\":\"Maria\",\"lastname\":\"Meier\",\"id\":1}",
+      "2": "{\"firstname\":\"Helmut\",\"lastname\":\"Tammen\",\"id\":2}",
+      "3": "{\"firstname\":\"Franz\",\"lastname\":\"Frosch\",\"id\":3,\"gender\":\"male\",\"age\":65}",
+      "4": "{\"firstname\":\"Mausi\",\"lastname\":\"Schatz\",\"id\":4,\"gender\":\"female\",\"age\":10}",
+      "5": "{\"firstname\":\"Peter\",\"lastname\":\"Friday\",\"id\":5}",
+      "7": "{\"firstname\":\"Joe\",\"lastname\":\"Lucky\",\"id\":7}",
+      "8": "{\"firstname\":\"Johannes\",\"lastname\":\"Hamel\",\"id\":8}"
+    },
+    "Customer": {
+      "1": "{\"name\":\"VeryFast Ltd\",\"rating\":7,\"address\":{},\"id\":1}",
+      "2": "{\"name\":\"VerySlow SE\",\"rating\":2,\"address\":{},\"id\":2}"
+    },
+    "Contact": {
+      "1": "{\"firstname\":\"Peter\",\"lastname\":\"Miller\",\"phone\":\"+49 511 123456\",\"mobile\":\"+49 170 123456\",\"email\":\"peter.miller@veryfast.com\",\"address\":{},\"id\":1,\"customerId\":1}",
+      "2": "{\"firstname\":\"Mary\",\"lastname\":\"Peterson\",\"phone\":\"+49 31 99998888\",\"mobile\":\"+49 163 987654\",\"email\":\"mary.peterson@veryslow.com\",\"address\":{},\"id\":2,\"customerId\":2}"
+    }
+  }
+}
