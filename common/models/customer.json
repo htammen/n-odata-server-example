@@ -1,0 +1,31 @@
+{
+  "name": "Customer",
+  "plural": "Customers",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "rating": {
+      "type": "number"
+    },
+    "address": {
+      "type": "object"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "contacts": {
+      "type": "hasMany",
+      "model": "Contact",
+      "foreignKey": "customerId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
