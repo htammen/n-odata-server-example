@@ -2,7 +2,7 @@ var lt = require('loopback-testing');
 var expect = require("chai").expect;
 var app = require('../server/server.js');
 
-describe('/odata', function() {
+describe('/odata/', function() {
 	lt.beforeEach.withApp(app);
 	lt.describe.whenCalledRemotely('GET', '/odata/', function() {
 		lt.it.shouldBeAllowed();
