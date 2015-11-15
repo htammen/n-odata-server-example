@@ -1,5 +1,5 @@
 {
-  "name": "node_odata_server",
+  "name": "n-odata-server",
   "version": "0.0.1",
   "main": "server/server.js",
   "scripts": {
@@ -7,17 +7,20 @@
   },
   "dependencies": {
     "body-parser": "^1.14.1",
-    "compression": "^1.0.3",
+		"compression": "^1.0.3",
     "cors": "^2.5.2",
     "loopback": "^2.22.0",
     "loopback-boot": "^2.6.5",
     "loopback-component-explorer": "^2.1.0",
     "loopback-datasource-juggler": "^2.39.0",
-    "n-odata-server": "file:../node_odata_server",
+    "n-odata-server": "file:../n-odata-server",
     "serve-favicon": "^2.0.1"
   },
   "devDependencies": {
-    "jshint": "^2.5.6"
+		"chai": "^2.1.1",
+		"jshint": "^2.5.6",
+    "loopback-testing": "^1.2.0",
+    "mocha": "^2.3.3"
   },
   "repository": {
     "type": "",
