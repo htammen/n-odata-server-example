@@ -3,6 +3,7 @@
     "mountPath": "/explorer"
   },
   "n-odata-server": {
-    "path": "/odata/*"
+    "path": "/odata/*",
+		"maxpagesize": "200"
   }
 }
