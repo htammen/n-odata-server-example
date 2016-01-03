@@ -1,0 +1,25 @@
+{
+	"name": "ProductDetail",
+	"plural": "ProductDetails",
+	"base": "PersistedModel",
+	"idInjection": true,
+	"persistUndefinedAsNull": true,
+	"options": {
+		"validateUpsert": true
+	},
+	"properties": {
+		"Details": {
+			"type": "string",
+		}
+	},
+	"validations": [],
+	"relations": {
+		"contacts": {
+			"type": "hasMany",
+			"model": "Contact",
+			"foreignKey": "customerId"
+		}
+	},
+	"acls": [],
+	"methods": {}
+}

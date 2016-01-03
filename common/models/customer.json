@@ -3,19 +3,47 @@
   "plural": "Customers",
   "base": "PersistedModel",
   "idInjection": true,
-  "options": {
+	"persistUndefinedAsNull": true,
+	"options": {
     "validateUpsert": true
   },
   "properties": {
-    "name": {
+    "CompanyName": {
       "type": "string",
       "required": true
     },
-    "rating": {
+		"ContactName": {
+			"type": "string"
+		},
+		"ContactTitle": {
+			"type": "string"
+		},
+		"Address": {
+			"type": "string"
+		},
+		"City": {
+			"type": "string"
+		},
+		"Region": {
+			"type": "string"
+		},
+		"PostalCode": {
+			"type": "string"
+		},
+		"Country": {
+			"type": "string"
+		},
+		"Phone": {
+			"type": "string"
+		},
+		"Fax": {
+			"type": "string"
+		},
+		"EMail": {
+			"type": "string"
+		},
+    "Rating": {
       "type": "number"
-    },
-    "address": {
-      "type": "object"
     }
   },
   "validations": [],
