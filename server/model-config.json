@@ -32,7 +32,7 @@
     "dataSource": "db",
     "public": false
   },
-  "person": {
+  "Person": {
     "dataSource": "db",
     "public": true
   },

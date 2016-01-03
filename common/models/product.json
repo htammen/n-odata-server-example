@@ -1,0 +1,41 @@
+{
+	"name": "Product",
+	"plural": "Products",
+	"base": "PersistedModel",
+	"idInjection": true,
+	"persistUndefinedAsNull": true,
+	"options": {
+		"validateUpsert": true
+	},
+	"properties": {
+		"Name": {
+			"type": "string",
+			"required": true
+		},
+		"Description": {
+			"type": "string"
+		},
+		"ReleaseDate": {
+			"type": "date"
+		},
+		"DiscontinuedDate": {
+			"type": "date"
+		},
+		"Rating": {
+			"type": "number"
+		},
+		"Price": {
+			"type": "number"
+		}
+	},
+	"validations": [],
+	"relations": {
+		"contacts": {
+			"type": "hasMany",
+			"model": "Contact",
+			"foreignKey": "customerId"
+		}
+	},
+	"acls": [],
+	"methods": {}
+}

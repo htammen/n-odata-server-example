@@ -1,7 +1,8 @@
 {
-  "name": "person",
-  "plural": "people",
+  "name": "Person",
+  "plural": "People",
   "base": "PersistedModel",
+	"persistUndefinedAsNull": true,
   "idInjection": true,
   "options": {
     "validateUpsert": true

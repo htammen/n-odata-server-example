@@ -4,6 +4,7 @@
   },
   "n-odata-server": {
     "path": "/odata/*",
-		"maxpagesize": "200"
+		"maxpagesize": "200",
+		"odataversion": "2"
   }
 }
