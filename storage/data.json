@@ -7,7 +7,8 @@
     "Role": 1,
     "person": 22,
     "Customer": 26,
-    "Contact": 3
+    "Contact": 3,
+    "Product": 9
   },
   "models": {
     "User": {},
@@ -54,6 +55,15 @@
       "21": "{\"CompanyName\":\"Tammen IT Solutions\",\"ContactName\":\"Helmut Tammen\",\"ContactTitle\":\"CIO\",\"Address\":\"Pastor-Badenhop-Weg 5\",\"City\":\"Burgwedel\",\"Region\":\"Niedersachsen\",\"PostalCode\":\"30938\",\"Country\":\"Germany\",\"Phone\":\"+49 170 8822491\",\"Fax\":null,\"EMail\":\"h.tammen@tammen-it-solutions.de\",\"Rating\":4,\"id\":21}",
       "23": "{\"CompanyName\":\"mata solutions gmbh\",\"ContactName\":\"Ralf Marczoch\",\"ContactTitle\":\"CEO\",\"Address\":\"Herrenstraße 3-5\",\"City\":\"Hannover\",\"Region\":\"Niedersachsen\",\"PostalCode\":\"30159\",\"Country\":\"Germany\",\"Phone\":null,\"Fax\":null,\"EMail\":\"r.marczoch@mata-solutions.de\",\"Rating\":4,\"id\":23}",
       "25": "{\"CompanyName\":\"Einfach Mal Weg\",\"ContactName\":\"Mr. Weg\",\"ContactTitle\":\"Chief Officer\",\"Address\":\"Am Weinberg\",\"City\":\"Würzburg\",\"Region\":\"Bayern\",\"PostalCode\":\"89450\",\"Country\":\"Germany\",\"Phone\":null,\"Fax\":null,\"EMail\":null,\"Rating\":3.6,\"id\":25}"
+    },
+    "Product": {
+      "1": "{\"Name\":\"Bread\",\"Description\":\"Whole grain bread\",\"ReleaseDate\":\"1992-01-01T00:00:00.000Z\",\"DiscontinuedDate\":null,\"Rating\":4,\"Price\":2.5,\"id\":1}",
+      "2": "{\"Name\":\"Milk\",\"Description\":\"Low fat milk\",\"ReleaseDate\":\"1995-10-01T00:00:00.000Z\",\"DiscontinuedDate\":null,\"Rating\":3,\"Price\":3.5,\"id\":2}",
+      "3": "{\"Name\":\"Vint soda\",\"Description\":\"Americana Variety - Mix of 6 flavors\",\"ReleaseDate\":\"2000-10-01T00:00:00.000Z\",\"DiscontinuedDate\":null,\"Rating\":3,\"Price\":20.9,\"id\":3}",
+      "5": "{\"Name\":\"Havina Cola\",\"Description\":\"The Original Key Lime Cola\",\"ReleaseDate\":\"2005-10-01T00:00:00.000Z\",\"DiscontinuedDate\":\"2006-10-01T00:00:00.000Z\",\"Rating\":3,\"Price\":19.9,\"id\":5}",
+      "6": "{\"Name\":\"Havina Cola\",\"Description\":\"The Original Key Lime Cola\",\"ReleaseDate\":\"2005-10-01T00:00:00.000Z\",\"DiscontinuedDate\":\"2006-10-01T00:00:00.000Z\",\"Rating\":3,\"Price\":19.9,\"id\":6}",
+      "7": "{\"Name\":\"Havina Cola\",\"Description\":\"The Original Key Lime Cola\",\"ReleaseDate\":\"2005-10-01T00:00:00.000Z\",\"DiscontinuedDate\":\"2006-10-01T00:00:00.000Z\",\"Rating\":3,\"Price\":19.9,\"id\":7}",
+      "8": "{\"Name\":\"Havina Cola\",\"Description\":\"The Original Key Lime Cola\",\"ReleaseDate\":\"2005-10-01T00:00:00.000Z\",\"DiscontinuedDate\":\"2006-10-01T00:00:00.000Z\",\"Rating\":3,\"Price\":19.9,\"id\":8}"
     }
   }
 }
