@@ -43,5 +43,13 @@
   "Contact": {
     "dataSource": "db",
     "public": true
+  },
+  "Product": {
+    "dataSource": "db",
+    "public": true
+  },
+  "ProductDetail": {
+    "dataSource": "db",
+    "public": true
   }
 }

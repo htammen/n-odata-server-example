@@ -30,10 +30,10 @@
 	},
 	"validations": [],
 	"relations": {
-		"contacts": {
-			"type": "hasMany",
-			"model": "Contact",
-			"foreignKey": "customerId"
+		"details": {
+			"type": "hasOne",
+			"model": "ProductDetail",
+			"foreignKey": "Id"
 		}
 	},
 	"acls": [],

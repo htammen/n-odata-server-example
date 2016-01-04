@@ -9,15 +9,15 @@
 	},
 	"properties": {
 		"Details": {
-			"type": "string",
+			"type": "string"
 		}
 	},
 	"validations": [],
 	"relations": {
-		"contacts": {
-			"type": "hasMany",
-			"model": "Contact",
-			"foreignKey": "customerId"
+		"product": {
+			"type": "belongsTo",
+			"model": "Product",
+			"foreignKey": "Id"
 		}
 	},
 	"acls": [],
