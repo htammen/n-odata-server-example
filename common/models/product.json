@@ -33,7 +33,7 @@
 		"details": {
 			"type": "hasOne",
 			"model": "ProductDetail",
-			"foreignKey": "Id"
+			"foreignKey": ""
 		}
 	},
 	"acls": [],
