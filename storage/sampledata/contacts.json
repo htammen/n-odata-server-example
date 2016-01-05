@@ -1,0 +1,29 @@
+[
+	{
+		"firstname": "Heinz",
+		"lastname": "Miller",
+		"phone": "+49 511 123456",
+		"mobile": "+49 170 123456",
+		"email": "peter.miller@veryfast.com",
+		"address": {},
+		"customerId": 1
+	},
+	{
+		"firstname": "Mary",
+		"lastname": "Peterson",
+		"phone": "+49 31 99998888",
+		"mobile": "+49 163 987654",
+		"email": "mary.peterson@veryslow.com",
+		"address": {},
+		"customerId": 2
+	},
+	{
+		"firstname": "Anthony",
+		"lastname": "Ashby",
+		"phone": "+01 88 11223344",
+		"mobile": "+01 122 123123123",
+		"email": "anthony.ashby@ashby.com",
+		"address": {},
+		"customerId": 3
+	}
+]

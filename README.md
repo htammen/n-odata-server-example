@@ -10,3 +10,16 @@ After you cloned this repository and the n-odata-server repository
 run `npm install`
 and then `node .`
 to start the application.
+
+## Sample Data
+### Create Sample Data
+We have created a mechanism to produce the data you can work with from scratch. This is useful if you played around
+with the data and it got out of control. To initialize the data just call the index page and follow the instructions there.
+
+If you want to edit the data or add some data for initalization go to the folder `storage/sampledata`. There you find
+some JSON files that you can edit. After you have edited a file go back to the initialize data link and initialize the data
+of the table you altered there. You don't have to restart the server for that.
+
+### Retrieve Sample Data
+The index page also provides some links you can use to retrieve the data via the odata server.
+To test the odata server we recommend to use a browser plugin e.g. Postman.
