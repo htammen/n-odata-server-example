@@ -10,14 +10,17 @@
 	"properties": {
 		"Details": {
 			"type": "string"
+		},
+		"productId": {
+			"type": "number",
+			"required": "true"
 		}
 	},
 	"validations": [],
 	"relations": {
 		"product": {
 			"type": "belongsTo",
-			"model": "Product",
-			"foreignKey": "DetailId"
+			"model": "Product"
 		}
 	},
 	"acls": [],

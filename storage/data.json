@@ -8,7 +8,8 @@
     "Person": 12,
     "Customer": 24,
     "Contact": 4,
-    "Product": 5
+    "Product": 5,
+    "ProductDetail": 5
   },
   "models": {
     "User": {},
@@ -64,6 +65,12 @@
       "2": "{\"Name\":\"Milk\",\"Description\":\"Low fat milk\",\"ReleaseDate\":\"1995-10-01T00:00:00.000Z\",\"DiscontinuedDate\":null,\"Rating\":3,\"Price\":3.5,\"id\":2}",
       "3": "{\"Name\":\"Vint soda\",\"Description\":\"Americana Variety - Mix of 6 flavors\",\"ReleaseDate\":\"2000-10-01T00:00:00.000Z\",\"DiscontinuedDate\":null,\"Rating\":3,\"Price\":20.9,\"id\":3}",
       "4": "{\"Name\":\"Havina Cola\",\"Description\":\"The Original Key Lime Cola\",\"ReleaseDate\":\"2005-10-01T00:00:00.000Z\",\"DiscontinuedDate\":\"2006-10-01T00:00:00.000Z\",\"Rating\":3,\"Price\":19.9,\"id\":4}"
+    },
+    "ProductDetail": {
+      "1": "{\"Details\":\"Bread_Detail\",\"productId\":1,\"id\":1}",
+      "2": "{\"Details\":\"Milk_Detail\",\"productId\":2,\"id\":2}",
+      "3": "{\"Details\":\"Vint soda_Detail\",\"productId\":3,\"id\":3}",
+      "4": "{\"Details\":\"Havina Cola_Detail\",\"productId\":4,\"id\":4}"
     }
   }
 }
