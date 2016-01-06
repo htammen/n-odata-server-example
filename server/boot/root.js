@@ -4,25 +4,24 @@ var customer = require("../sampledata/customers");
 var contacts = require("../sampledata/contacts");
 
 module.exports = function(server) {
-  // Install a `/` route that returns server status
-  var router = server.loopback.Router();
-  router.get('/status', server.loopback.status());
+	// Install a `/` route that returns server status
+	var router = server.loopback.Router();
+	router.get('/status', server.loopback.status());
 
 	router.get('/sampledata/createproducts', function(req, res, next) {
-		products(server, function(err) {
-			if(err) {
-				res.status(500).send("error while creating products")
-			} else {
-				res.status(200).send('Products are created');
-			}
-		});
+		products(server).then(function() {
+			res.status(200).send('Products are created');
+		}, function(err) {
+			res.status(500).send(err.join('</br>'));
+		})
 	});
 
 	router.get('/sampledata/createpeople', function(req, res, next) {
 		person(server, function(err) {
-			if(err) {
+			if (err) {
 				res.status(500).send("error while creating persons")
-			} else {
+			}
+			else {
 				res.status(200).send('Persons are created');
 			}
 		});
@@ -30,9 +29,10 @@ module.exports = function(server) {
 
 	router.get('/sampledata/createcustomers', function(req, res, next) {
 		customer(server, function(err) {
-			if(err) {
+			if (err) {
 				res.status(500).send("error while creating customers")
-			} else {
+			}
+			else {
 				res.status(200).send('Customers are created');
 			}
 		});
@@ -40,13 +40,14 @@ module.exports = function(server) {
 
 	router.get('/sampledata/createcontacts', function(req, res, next) {
 		contacts(server, function(err) {
-			if(err) {
+			if (err) {
 				res.status(500).send("error while creating contacts")
-			} else {
+			}
+			else {
 				res.status(200).send('Contacts are created');
 			}
 		});
 	});
 
-  server.use(router);
+	server.use(router);
 };
