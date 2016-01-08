@@ -26,11 +26,14 @@
 		},
 		"Price": {
 			"type": "number"
+		},
+		"CategoryId": {
+			"type": "number"
 		}
 	},
 	"validations": [],
 	"relations": {
-		"details": {
+		"ProductDetails": {
 			"type": "hasOne",
 			"model": "ProductDetail",
 			"foreignKey": "productId"
