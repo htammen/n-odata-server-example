@@ -5,11 +5,12 @@
     "ACL": 1,
     "RoleMapping": 1,
     "Role": 1,
-    "Person": 12,
-    "Customer": 24,
-    "Contact": 4,
+    "Person": 1,
+    "Customer": 1,
+    "Contact": 1,
     "Product": 5,
-    "ProductDetail": 5
+    "ProductDetail": 5,
+    "Category": 4
   },
   "models": {
     "User": {},
@@ -17,60 +18,25 @@
     "ACL": {},
     "RoleMapping": {},
     "Role": {},
-    "Person": {
-      "1": "{\"firstname\":\"Nadine\",\"lastname\":\"Meier\",\"gender\":null,\"age\":null,\"id\":1}",
-      "2": "{\"firstname\":\"Helmut\",\"lastname\":\"Tammen\",\"gender\":null,\"age\":null,\"id\":2}",
-      "3": "{\"firstname\":\"Franz\",\"lastname\":\"Frosch\",\"gender\":\"male\",\"age\":65,\"id\":3}",
-      "4": "{\"firstname\":\"Mausi\",\"lastname\":\"Schatz\",\"gender\":\"female\",\"age\":99,\"id\":4}",
-      "5": "{\"firstname\":\"Peter\",\"lastname\":\"Friday\",\"gender\":null,\"age\":null,\"id\":5}",
-      "6": "{\"firstname\":\"Johannes\",\"lastname\":\"Hamel\",\"gender\":null,\"age\":null,\"id\":6}",
-      "7": "{\"firstname\":\"Marty\",\"lastname\":\"Feldman\",\"gender\":null,\"age\":32,\"id\":7}",
-      "8": "{\"firstname\":\"Hermine\",\"lastname\":\"Hastenichgesehen\",\"gender\":null,\"age\":22,\"id\":8}",
-      "9": "{\"firstname\":\"Tim\",\"lastname\":\"Wiese\",\"gender\":null,\"age\":null,\"id\":9}",
-      "10": "{\"firstname\":\"Martin\",\"lastname\":\"Meier\",\"gender\":\"male\",\"age\":25,\"id\":10}",
-      "11": "{\"firstname\":\"Karla\",\"lastname\":\"Klar\",\"gender\":\"female\",\"age\":63,\"id\":11}"
-    },
-    "Contact": {
-      "1": "{\"firstname\":\"Heinz\",\"lastname\":\"Miller\",\"phone\":\"+49 511 123456\",\"mobile\":\"+49 170 123456\",\"email\":\"peter.miller@veryfast.com\",\"address\":\"[object Object]\",\"id\":1,\"customerId\":1}",
-      "2": "{\"firstname\":\"Mary\",\"lastname\":\"Peterson\",\"phone\":\"+49 31 99998888\",\"mobile\":\"+49 163 987654\",\"email\":\"mary.peterson@veryslow.com\",\"address\":\"[object Object]\",\"id\":2,\"customerId\":2}",
-      "3": "{\"firstname\":\"Anthony\",\"lastname\":\"Ashby\",\"phone\":\"+01 88 11223344\",\"mobile\":\"+01 122 123123123\",\"email\":\"anthony.ashby@ashby.com\",\"address\":\"[object Object]\",\"id\":3,\"customerId\":3}"
-    },
-    "Customer": {
-      "1": "{\"CompanyName\":\"Alfreds Futterkiste\",\"ContactName\":\"Maria Anders\",\"ContactTitle\":\"Sales Representative\",\"Address\":\"Obere Str. 57\",\"City\":\"Berlin\",\"Region\":null,\"PostalCode\":\"12209\",\"Country\":\"Germany\",\"Phone\":\"030-0074321\",\"Fax\":\"030-0076545\",\"EMail\":null,\"Rating\":4.2,\"id\":1}",
-      "2": "{\"CompanyName\":\"Ana Trujillo Emparedados y helados\",\"ContactName\":\"Ana Trujillo\",\"ContactTitle\":\"Owner\",\"Address\":\"Avda. de la Constitución 2222\",\"City\":\"México D.F.\",\"Region\":null,\"PostalCode\":\"05021\",\"Country\":\"Mexico\",\"Phone\":\"(5) 555-4729\",\"Fax\":\"(5) 555-3745\",\"EMail\":null,\"Rating\":3.3,\"id\":2}",
-      "3": "{\"CompanyName\":\"Antonio Moreno Taquería\",\"ContactName\":\"Antonio Moreno\",\"ContactTitle\":\"Owner\",\"Address\":\"Mataderos  2312\",\"City\":\"México D.F.\",\"Region\":null,\"PostalCode\":\"05023\",\"Country\":\"Mexico\",\"Phone\":\"(5) 555-3932\",\"Fax\":null,\"EMail\":null,\"Rating\":4.1,\"id\":3}",
-      "4": "{\"CompanyName\":\"Around the Horn\",\"ContactName\":\"Thomas Hardy\",\"ContactTitle\":\"Sales Representative\",\"Address\":\"120 Hanover Sq.\",\"City\":\"London\",\"Region\":null,\"PostalCode\":\"WA1 1DP\",\"Country\":\"UK\",\"Phone\":\"(171) 555-7788\",\"Fax\":\"(171) 555-6750\",\"EMail\":null,\"Rating\":2,\"id\":4}",
-      "5": "{\"CompanyName\":\"Berglunds snabbköp\",\"ContactName\":\"Christina Berglund\",\"ContactTitle\":\"Order Administrator\",\"Address\":\"Berguvsvägen  8\",\"City\":\"Luleå\",\"Region\":null,\"PostalCode\":\"S-958 22\",\"Country\":\"Sweden\",\"Phone\":\"0921-12 34 65\",\"Fax\":\"0921-12 34 67\",\"EMail\":null,\"Rating\":1,\"id\":5}",
-      "6": "{\"CompanyName\":\"Blauer See Delikatessen\",\"ContactName\":\"Hanna Moos\",\"ContactTitle\":\"Sales Representative\",\"Address\":\"Forsterstr. 57\",\"City\":\"Mannheim\",\"Region\":null,\"PostalCode\":\"68306\",\"Country\":\"Germany\",\"Phone\":\"0621-08460\",\"Fax\":\"0621-08924\",\"EMail\":null,\"Rating\":3.9,\"id\":6}",
-      "7": "{\"CompanyName\":\"Blondesddsl père et fils\",\"ContactName\":\"Frédérique Citeaux\",\"ContactTitle\":\"Marketing Manager\",\"Address\":\"24, place Kléber\",\"City\":\"Strasbourg\",\"Region\":null,\"PostalCode\":\"67000\",\"Country\":\"France\",\"Phone\":\"88.60.15.31\",\"Fax\":\"88.60.15.32\",\"EMail\":null,\"Rating\":4.8,\"id\":7}",
-      "8": "{\"CompanyName\":\"Bólido Comidas preparadas\",\"ContactName\":\"Martín Sommer\",\"ContactTitle\":\"Owner\",\"Address\":\"C/ Araquil, 67\",\"City\":\"Madrid\",\"Region\":null,\"PostalCode\":\"28023\",\"Country\":\"Spain\",\"Phone\":\"(91) 555 22 82\",\"Fax\":\"(91) 555 91 99\",\"EMail\":null,\"Rating\":2.8,\"id\":8}",
-      "9": "{\"CompanyName\":\"Bon app'\",\"ContactName\":\"Laurence Lebihan\",\"ContactTitle\":\"Owner\",\"Address\":\"12, rue des Bouchers\",\"City\":\"Marseille\",\"Region\":null,\"PostalCode\":\"13008\",\"Country\":\"France\",\"Phone\":\"91.24.45.40\",\"Fax\":\"91.24.45.41\",\"EMail\":null,\"Rating\":2.5,\"id\":9}",
-      "10": "{\"CompanyName\":\"Bottom-Dollar Markets\",\"ContactName\":\"Elizabeth Lincoln\",\"ContactTitle\":\"Accounting Manager\",\"Address\":\"23 Tsawassen Blvd.\",\"City\":\"Tsawassen\",\"Region\":\"BC\",\"PostalCode\":\"T2F 8M4\",\"Country\":\"Canada\",\"Phone\":\"(604) 555-4729\",\"Fax\":\"(604) 555-3745\",\"EMail\":null,\"Rating\":3.6,\"id\":10}",
-      "11": "{\"CompanyName\":\"B's Beverages\",\"ContactName\":\"Victoria Ashworth\",\"ContactTitle\":\"Sales Representative\",\"Address\":\"Fauntleroy Circus\",\"City\":\"London\",\"Region\":null,\"PostalCode\":\"EC2 5NT\",\"Country\":\"UK\",\"Phone\":\"(171) 555-1212\",\"Fax\":null,\"EMail\":null,\"Rating\":3.9,\"id\":11}",
-      "12": "{\"CompanyName\":\"Cactus Comidas para llevar\",\"ContactName\":\"Patricio Simpson\",\"ContactTitle\":\"Sales Agent\",\"Address\":\"Cerrito 333\",\"City\":\"Buenos Aires\",\"Region\":null,\"PostalCode\":\"1010\",\"Country\":\"Argentina\",\"Phone\":\"(1) 135-5555\",\"Fax\":\"(1) 135-4892\",\"EMail\":null,\"Rating\":4.1,\"id\":12}",
-      "13": "{\"CompanyName\":\"Centro comercial Moctezuma\",\"ContactName\":\"Francisco Chang\",\"ContactTitle\":\"Marketing Manager\",\"Address\":\"Sierras de Granada 9993\",\"City\":\"México D.F.\",\"Region\":null,\"PostalCode\":\"05022\",\"Country\":\"Mexico\",\"Phone\":\"(5) 555-3392\",\"Fax\":\"(5) 555-7293\",\"EMail\":null,\"Rating\":4.3,\"id\":13}",
-      "14": "{\"CompanyName\":\"Chop-suey Chinese\",\"ContactName\":\"Yang Wang\",\"ContactTitle\":\"Owner\",\"Address\":\"Hauptstr. 29\",\"City\":\"Bern\",\"Region\":null,\"PostalCode\":\"3012\",\"Country\":\"Switzerland\",\"Phone\":\"0452-076545\",\"Fax\":null,\"EMail\":null,\"Rating\":3.4,\"id\":14}",
-      "15": "{\"CompanyName\":\"Comércio Mineiro\",\"ContactName\":\"Pedro Afonso\",\"ContactTitle\":\"Sales Associate\",\"Address\":\"Av. dos Lusíadas, 23\",\"City\":\"Sao Paulo\",\"Region\":\"SP\",\"PostalCode\":\"05432-043\",\"Country\":\"Brazil\",\"Phone\":\"(11) 555-7647\",\"Fax\":null,\"EMail\":null,\"Rating\":3.2,\"id\":15}",
-      "16": "{\"CompanyName\":\"Consolidated Holdings\",\"ContactName\":\"Elizabeth Brown\",\"ContactTitle\":\"Sales Representative\",\"Address\":\"Berkeley Gardens 12  Brewery\",\"City\":\"London\",\"Region\":null,\"PostalCode\":\"WX1 6LT\",\"Country\":\"UK\",\"Phone\":\"(171) 555-2282\",\"Fax\":\"(171) 555-9199\",\"EMail\":null,\"Rating\":1.8,\"id\":16}",
-      "17": "{\"CompanyName\":\"Drachenblut Delikatessen\",\"ContactName\":\"Sven Ottlieb\",\"ContactTitle\":\"Order Administrator\",\"Address\":\"Walserweg 21\",\"City\":\"Aachen\",\"Region\":null,\"PostalCode\":\"52066\",\"Country\":\"Germany\",\"Phone\":\"0241-039123\",\"Fax\":\"0241-059428\",\"EMail\":null,\"Rating\":2.6,\"id\":17}",
-      "18": "{\"CompanyName\":\"Du monde entier\",\"ContactName\":\"Janine Labrune\",\"ContactTitle\":\"Owner\",\"Address\":\"67, rue des Cinquante Otages\",\"City\":\"Nantes\",\"Region\":null,\"PostalCode\":\"44000\",\"Country\":\"France\",\"Phone\":\"40.67.88.88\",\"Fax\":\"40.67.89.89\",\"EMail\":null,\"Rating\":1.6,\"id\":18}",
-      "19": "{\"CompanyName\":\"Eastern Connection\",\"ContactName\":\"Ann Devon\",\"ContactTitle\":\"Sales Agent\",\"Address\":\"35 King George\",\"City\":\"London\",\"Region\":null,\"PostalCode\":\"WX3 6FW\",\"Country\":\"UK\",\"Phone\":\"(171) 555-0297\",\"Fax\":\"(171) 555-3373\",\"EMail\":null,\"Rating\":3.7,\"id\":19}",
-      "20": "{\"CompanyName\":\"Ernst Handel\",\"ContactName\":\"Roland Mendel\",\"ContactTitle\":\"Sales Manager\",\"Address\":\"Kirchgasse 6\",\"City\":\"Graz\",\"Region\":null,\"PostalCode\":\"8010\",\"Country\":\"Austria\",\"Phone\":\"7675-3425\",\"Fax\":\"7675-3426\",\"EMail\":null,\"Rating\":3.2,\"id\":20}",
-      "21": "{\"CompanyName\":\"Tammen IT Solutions\",\"ContactName\":\"Helmut Tammen\",\"ContactTitle\":\"CIO\",\"Address\":\"Pastor-Badenhop-Weg 5\",\"City\":\"Burgwedel\",\"Region\":\"Niedersachsen\",\"PostalCode\":\"30938\",\"Country\":\"Germany\",\"Phone\":\"+49 170 8822491\",\"Fax\":null,\"EMail\":\"h.tammen@tammen-it-solutions.de\",\"Rating\":4,\"id\":21}",
-      "22": "{\"CompanyName\":\"mata solutions gmbh\",\"ContactName\":\"Ralf Marczoch\",\"ContactTitle\":\"CEO\",\"Address\":\"Herrenstraße 3-5\",\"City\":\"Hannover\",\"Region\":\"Niedersachsen\",\"PostalCode\":\"30159\",\"Country\":\"Germany\",\"Phone\":null,\"Fax\":null,\"EMail\":\"r.marczoch@mata-solutions.de\",\"Rating\":4,\"id\":22}",
-      "23": "{\"CompanyName\":\"Einfach Mal Weg\",\"ContactName\":\"Mr. Weg\",\"ContactTitle\":\"Chief Officer\",\"Address\":\"Am Weinberg\",\"City\":\"Würzburg\",\"Region\":\"Bayern\",\"PostalCode\":\"89450\",\"Country\":\"Germany\",\"Phone\":null,\"Fax\":null,\"EMail\":null,\"Rating\":3.6,\"id\":23}"
-    },
+    "Person": {},
+    "Customer": {},
+    "Contact": {},
     "Product": {
-      "1": "{\"Name\":\"Bread\",\"Description\":\"Whole grain bread\",\"ReleaseDate\":\"1992-01-01T00:00:00.000Z\",\"DiscontinuedDate\":null,\"Rating\":4,\"Price\":2.5,\"id\":1}",
-      "2": "{\"Name\":\"Milk\",\"Description\":\"Low fat milk\",\"ReleaseDate\":\"1995-10-01T00:00:00.000Z\",\"DiscontinuedDate\":null,\"Rating\":3,\"Price\":3.5,\"id\":2}",
-      "3": "{\"Name\":\"Vint soda\",\"Description\":\"Americana Variety - Mix of 6 flavors\",\"ReleaseDate\":\"2000-10-01T00:00:00.000Z\",\"DiscontinuedDate\":null,\"Rating\":3,\"Price\":20.9,\"id\":3}",
-      "4": "{\"Name\":\"Havina Cola\",\"Description\":\"The Original Key Lime Cola\",\"ReleaseDate\":\"2005-10-01T00:00:00.000Z\",\"DiscontinuedDate\":\"2006-10-01T00:00:00.000Z\",\"Rating\":3,\"Price\":19.9,\"id\":4}"
+      "1": "{\"Name\":\"Bread\",\"Description\":\"Whole grain bread\",\"ReleaseDate\":\"1992-01-01T00:00:00.000Z\",\"DiscontinuedDate\":null,\"Rating\":4,\"Price\":2.5,\"CategoryId\":1,\"id\":1}",
+      "2": "{\"Name\":\"Milk\",\"Description\":\"Low fat milk\",\"ReleaseDate\":\"1995-10-01T00:00:00.000Z\",\"DiscontinuedDate\":null,\"Rating\":3,\"Price\":3.5,\"CategoryId\":2,\"id\":2}",
+      "3": "{\"Name\":\"Vint soda\",\"Description\":\"Americana Variety - Mix of 6 flavors\",\"ReleaseDate\":\"2000-10-01T00:00:00.000Z\",\"DiscontinuedDate\":null,\"Rating\":3,\"Price\":20.9,\"CategoryId\":2,\"id\":3}",
+      "4": "{\"Name\":\"Havina Cola\",\"Description\":\"The Original Key Lime Cola\",\"ReleaseDate\":\"2005-10-01T00:00:00.000Z\",\"DiscontinuedDate\":\"2006-10-01T00:00:00.000Z\",\"Rating\":3,\"Price\":19.9,\"CategoryId\":3,\"id\":4}"
     },
     "ProductDetail": {
       "1": "{\"Details\":\"Bread_Detail\",\"productId\":1,\"id\":1}",
       "2": "{\"Details\":\"Milk_Detail\",\"productId\":2,\"id\":2}",
       "3": "{\"Details\":\"Vint soda_Detail\",\"productId\":3,\"id\":3}",
       "4": "{\"Details\":\"Havina Cola_Detail\",\"productId\":4,\"id\":4}"
+    },
+    "Category": {
+      "1": "{\"name\":\"Food\",\"id\":1}",
+      "2": "{\"name\":\"Beverages\",\"id\":2}",
+      "3": "{\"name\":\"Electronics\",\"id\":3}"
     }
   }
 }

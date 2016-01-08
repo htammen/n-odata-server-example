@@ -1,5 +1,6 @@
 [
 	{
+		"CategoryId": "1",
 		"Name": "Bread",
 		"Description": "Whole grain bread",
 		"ReleaseDate": "1992-01-01T00:00:00.000Z",
@@ -8,6 +9,7 @@
 		"Price": 2.5
 	},
 	{
+		"CategoryId": "2",
 		"Name": "Milk",
 		"Description": "Low fat milk",
 		"ReleaseDate": "1995-10-01T00:00:00.000Z",
@@ -16,6 +18,7 @@
 		"Price": 3.5
 	},
 	{
+		"CategoryId": "2",
 		"Name": "Vint soda",
 		"Description": "Americana Variety - Mix of 6 flavors",
 		"ReleaseDate": "2000-10-01T00:00:00.000Z",
@@ -24,6 +27,7 @@
 		"Price": 20.9
 	},
 	{
+		"CategoryId": "3",
 		"Name": "Havina Cola",
 		"Description": "The Original Key Lime Cola",
 		"ReleaseDate": "2005-10-01T00:00:00.000Z",
