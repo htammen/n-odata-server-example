@@ -3,5 +3,10 @@
     "name": "db",
     "connector": "memory",
     "file": "storage/data.json"
+  },
+  "db_productive": {
+    "name": "db_productive",
+    "connector": "memory",
+    "file": "storage/data_dbprod.json"
   }
 }

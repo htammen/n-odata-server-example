@@ -2,6 +2,7 @@ var products = require("../sampledata/products");
 var person = require("../sampledata/person");
 var customer = require("../sampledata/customers");
 var contacts = require("../sampledata/contacts");
+var attendees = require("../sampledata/attendees");
 
 module.exports = function(server) {
 	// Install a `/` route that returns server status
@@ -45,6 +46,17 @@ module.exports = function(server) {
 			}
 			else {
 				res.status(200).send('Contacts are created');
+			}
+		});
+	});
+
+	router.get('/sampledata/createattendees', function(req, res, next) {
+		attendees(server, function(err) {
+			if (err) {
+				res.status(500).send("error while creating attendees")
+			}
+			else {
+				res.status(200).send('Attendees are created');
 			}
 		});
 	});
