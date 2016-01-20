@@ -1,0 +1,26 @@
+{
+	"name": "Attendee",
+	"plural": "Attendees",
+	"base": "PersistedModel",
+	"idInjection": true,
+	"persistUndefinedAsNull": true,
+	"options": {
+		"validateUpsert": true
+	},
+	"properties": {
+		"code": {
+			"type": "string"
+		},
+		"name": {
+			"type": "string"
+		},
+		"quantity": {
+			"type": "number",
+			"required": "true"
+		}
+	},
+	"validations": [],
+	"relations": {},
+	"acls": [],
+	"methods": {}
+}

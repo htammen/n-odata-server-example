@@ -1,0 +1,292 @@
+[
+	{
+		"code": "ca",
+		"name": "Canada",
+		"quantity": 0
+	},
+	{
+		"code": "is",
+		"name": "Iceland",
+		"quantity": 0
+	},
+	{
+		"code": "by",
+		"name": "Belarus",
+		"quantity": 0
+	},
+	{
+		"code": "jo",
+		"name": "Jordan",
+		"quantity": 0
+	},
+	{
+		"code": "tm",
+		"name": "Turkmenistan",
+		"quantity": 0
+	},
+	{
+		"code": "kz",
+		"name": "Kazakhstan",
+		"quantity": 0
+	},
+	{
+		"code": "no",
+		"name": "Norway",
+		"quantity": 0
+	},
+	{
+		"code": "ua",
+		"name": "Ukraine",
+		"quantity": 0
+	},
+	{
+		"code": "il",
+		"name": "Israel",
+		"quantity": 0
+	},
+	{
+		"code": "sa",
+		"name": "Saudi Arabia",
+		"quantity": 0
+	},
+	{
+		"code": "iq",
+		"name": "Iraq",
+		"quantity": 0
+	},
+	{
+		"code": "az",
+		"name": "Azerbaijan",
+		"quantity": 0
+	},
+	{
+		"code": "ir",
+		"name": "Iran",
+		"quantity": 0
+	},
+	{
+		"code": "ge",
+		"name": "Georgia",
+		"quantity": 0
+	},
+	{
+		"code": "sy",
+		"name": "Syrian Arab Republic",
+		"quantity": 0
+	},
+	{
+		"code": "tr",
+		"name": "Turkey",
+		"quantity": 0
+	},
+	{
+		"code": "am",
+		"name": "Armenia",
+		"quantity": 0
+	},
+	{
+		"code": "cy",
+		"name": "Cyprus",
+		"quantity": 0
+	},
+	{
+		"code": "ch",
+		"name": "Switzerland",
+		"quantity": 0
+	},
+	{
+		"code": "md",
+		"name": "Moldova",
+		"quantity": 0
+	},
+	{
+		"code": "al",
+		"name": "Albania",
+		"quantity": 0
+	},
+	{
+		"code": "lb",
+		"name": "Lebanon",
+		"quantity": 0
+	},
+	{
+		"code": "ad",
+		"name": "Andorra",
+		"quantity": 0
+	},
+	{
+		"code": "mc",
+		"name": "Monaco",
+		"quantity": 0
+	},
+	{
+		"code": "li",
+		"name": "Liechtenstein",
+		"quantity": 0
+	},
+	{
+		"code": "ba",
+		"name": "Bosnia and Herzegovina",
+		"quantity": 0
+	},
+	{
+		"code": "mk",
+		"name": "Macedonia",
+		"quantity": 0
+	},
+	{
+		"code": "hr",
+		"name": "Croatia",
+		"quantity": 0
+	},
+	{
+		"code": "ru-main",
+		"name": "Russia",
+		"quantity": 0
+	},
+	{
+		"code": "ru-kaliningrad",
+		"name": "",
+		"quantity": 0
+	},
+	{
+		"code": "pt",
+		"name": "Portugal",
+		"quantity": 0
+	},
+	{
+		"code": "es",
+		"name": "Spain",
+		"quantity": 0
+	},
+	{
+		"code": "be",
+		"name": "Belgium",
+		"quantity": 0
+	},
+	{
+		"code": "it",
+		"name": "Italy",
+		"quantity": 0
+	},
+	{
+		"code": "pl",
+		"name": "Poland",
+		"quantity": 0
+	},
+	{
+		"code": "gr",
+		"name": "Greece",
+		"quantity": 0
+	},
+	{
+		"code": "fi",
+		"name": "Finland",
+		"quantity": 0
+	},
+	{
+		"code": "de",
+		"name": "Germany",
+		"quantity": 0
+	},
+	{
+		"code": "se",
+		"name": "Sweden",
+		"quantity": 0
+	},
+	{
+		"code": "ie",
+		"name": "Ireland",
+		"quantity": 0
+	},
+	{
+		"code": "gb",
+		"name": "United Kingdom",
+		"quantity": 0
+	},
+	{
+		"code": "at",
+		"name": "Austria",
+		"quantity": 0
+	},
+	{
+		"code": "cz",
+		"name": "Czech Republic",
+		"quantity": 0
+	},
+	{
+		"code": "sk",
+		"name": "Slovakia",
+		"quantity": 0
+	},
+	{
+		"code": "hu",
+		"name": "Hungary",
+		"quantity": 0
+	},
+	{
+		"code": "lt",
+		"name": "Lithuania",
+		"quantity": 0
+	},
+	{
+		"code": "lv",
+		"name": "Latvia",
+		"quantity": 0
+	},
+	{
+		"code": "ro",
+		"name": "Romania",
+		"quantity": 0
+	},
+	{
+		"code": "bg",
+		"name": "Bulgaria",
+		"quantity": 0
+	},
+	{
+		"code": "ee",
+		"name": "Estonia",
+		"quantity": 0
+	},
+	{
+		"code": "sm",
+		"name": "San Marino",
+		"quantity": 0
+	},
+	{
+		"code": "lu",
+		"name": "Luxembourg",
+		"quantity": 0
+	},
+	{
+		"code": "fr",
+		"name": "France",
+		"quantity": 0
+	},
+	{
+		"code": "nl",
+		"name": "Netherlands",
+		"quantity": 0
+	},
+	{
+		"code": "si",
+		"name": "Slovenia",
+		"quantity": 0
+	},
+	{
+		"code": "dk",
+		"name": "Denmark",
+		"quantity": 0
+	},
+	{
+		"code": "me",
+		"name": "Montenegro",
+		"quantity": 0
+	},
+	{
+		"code": "sr",
+		"name": "Suriname",
+		"quantity": 0
+	}
+]

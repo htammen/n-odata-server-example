@@ -1,0 +1,10 @@
+{
+  "ids": {
+    "NpmjsDownload": 2
+  },
+  "models": {
+    "NpmjsDownload": {
+      "1": "{\"checkdate\":\"2016-01-18T14:00:00.000Z\",\"quantity\":160,\"annotation\":\"\",\"id\":1}"
+    }
+  }
+}

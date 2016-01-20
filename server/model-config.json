@@ -55,5 +55,13 @@
 	"Category": {
 		"dataSource": "db",
 		"public": true
+  },
+  "Attendee": {
+		"dataSource": "db",
+		"public": true
+  },
+  "NpmjsDownload": {
+		"dataSource": "db_productive",
+		"public": true
   }
 }
