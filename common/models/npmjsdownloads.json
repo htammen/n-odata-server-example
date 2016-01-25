@@ -15,6 +15,14 @@
 			"type": "number",
 			"required": "true"
 		},
+		"quantity_lastweek": {
+			"type": "number",
+			"required": "true"
+		},
+		"quantity_lastday": {
+			"type": "number",
+			"required": "true"
+		},
 		"annotation": {
 			"type": "string"
 		}
