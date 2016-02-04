@@ -1,12 +1,15 @@
 {
   "ids": {
-    "NpmjsDownload": 4
+    "NpmjsDownload": 7
   },
   "models": {
     "NpmjsDownload": {
       "1": "{\"checkdate\":\"2016-01-18T14:00:00.000Z\",\"quantity\":160,\"quantity_lastweek\":0,\"quantity_lastday\":0,\"annotation\":\"\",\"id\":1}",
       "2": "{\"checkdate\":\"2016-01-21T13:01:00.000Z\",\"quantity\":157,\"quantity_lastweek\":0,\"quantity_lastday\":0,\"annotation\":\"\",\"id\":2}",
-      "3": "{\"checkdate\":\"2016-01-25T13:30:00.000Z\",\"quantity\":97,\"quantity_lastweek\":7,\"quantity_lastday\":5,\"annotation\":\"\",\"id\":3}"
+      "3": "{\"checkdate\":\"2016-01-25T13:30:00.000Z\",\"quantity\":97,\"quantity_lastweek\":7,\"quantity_lastday\":5,\"annotation\":\"\",\"id\":3}",
+      "4": "{\"checkdate\":\"2016-02-01T13:00:00.000Z\",\"quantity\":108,\"quantity_lastweek\":14,\"quantity_lastday\":0,\"annotation\":\"\",\"id\":4}",
+      "5": "{\"checkdate\":\"2016-02-03T16:06:00.000Z\",\"quantity\":70,\"quantity_lastweek\":7,\"quantity_lastday\":0,\"annotation\":null,\"id\":5}",
+      "6": "{\"checkdate\":\"2016-02-04T11:30:00.000Z\",\"quantity\":93,\"quantity_lastweek\":35,\"quantity_lastday\":29,\"annotation\":\"half a day after release 0.3.4\",\"id\":6}"
     }
   }
 }
