@@ -18,12 +18,21 @@
 		"customerId": 2
 	},
 	{
+		"firstname": "Peter",
+		"lastname": "Gustaffson",
+		"phone": "+49 31 123456789",
+		"mobile": "+49 163 987654",
+		"email": "peter.gustaffson@veryslow.com",
+		"address": {},
+		"customerId": 2
+	},
+	{
 		"firstname": "Anthony",
 		"lastname": "Ashby",
 		"phone": "+01 88 11223344",
 		"mobile": "+01 122 123123123",
 		"email": "anthony.ashby@ashby.com",
 		"address": {},
-		"customerId": 3
+		"customerId": 4
 	}
 ]
