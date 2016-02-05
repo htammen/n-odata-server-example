@@ -1,6 +1,6 @@
 {
   "ids": {
-    "NpmjsDownload": 7
+    "NpmjsDownload": 8
   },
   "models": {
     "NpmjsDownload": {
@@ -9,7 +9,8 @@
       "3": "{\"checkdate\":\"2016-01-25T13:30:00.000Z\",\"quantity\":97,\"quantity_lastweek\":7,\"quantity_lastday\":5,\"annotation\":\"\",\"id\":3}",
       "4": "{\"checkdate\":\"2016-02-01T13:00:00.000Z\",\"quantity\":108,\"quantity_lastweek\":14,\"quantity_lastday\":0,\"annotation\":\"\",\"id\":4}",
       "5": "{\"checkdate\":\"2016-02-03T16:06:00.000Z\",\"quantity\":70,\"quantity_lastweek\":7,\"quantity_lastday\":0,\"annotation\":null,\"id\":5}",
-      "6": "{\"checkdate\":\"2016-02-04T11:30:00.000Z\",\"quantity\":93,\"quantity_lastweek\":35,\"quantity_lastday\":29,\"annotation\":\"half a day after release 0.3.4\",\"id\":6}"
+      "6": "{\"checkdate\":\"2016-02-04T11:30:00.000Z\",\"quantity\":93,\"quantity_lastweek\":35,\"quantity_lastday\":29,\"annotation\":\"half a day after release 0.3.4\",\"id\":6}",
+      "7": "{\"checkdate\":\"2016-02-05T22:30:00.000Z\",\"quantity\":124,\"quantity_lastweek\":63,\"quantity_lastday\":33,\"annotation\":\"one day after release 0.3.5\",\"id\":7}"
     }
   }
 }
