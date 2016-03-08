@@ -2,11 +2,11 @@
   "name": "Person",
   "plural": "People",
   "base": "PersistedModel",
-	"persistUndefinedAsNull": true,
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
+  "persistUndefinedAsNull": true,
   "properties": {
     "firstname": {
       "type": "string",

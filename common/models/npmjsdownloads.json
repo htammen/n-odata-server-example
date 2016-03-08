@@ -1,34 +1,34 @@
 {
-	"name": "NpmjsDownload",
-	"plural": "NpmjsDownloads",
-	"base": "PersistedModel",
-	"idInjection": true,
-	"persistUndefinedAsNull": true,
-	"options": {
-		"validateUpsert": true
-	},
-	"properties": {
-		"checkdate": {
-			"type": "date"
-		},
-		"quantity": {
-			"type": "number",
-			"required": "true"
-		},
-		"quantity_lastweek": {
-			"type": "number",
-			"required": "true"
-		},
-		"quantity_lastday": {
-			"type": "number",
-			"required": "true"
-		},
-		"annotation": {
-			"type": "string"
-		}
-	},
-	"validations": [],
-	"relations": {},
-	"acls": [],
-	"methods": {}
+  "name": "NpmjsDownload",
+  "plural": "NpmjsDownloads",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "persistUndefinedAsNull": true,
+  "properties": {
+    "checkdate": {
+      "type": "date"
+    },
+    "quantity": {
+      "type": "number",
+      "required": "true"
+    },
+    "quantity_lastweek": {
+      "type": "number",
+      "required": "true"
+    },
+    "quantity_lastday": {
+      "type": "number",
+      "required": "true"
+    },
+    "annotation": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
 }

@@ -51,17 +51,17 @@
   "ProductDetail": {
     "dataSource": "db",
     "public": true
-	},
-	"Category": {
-		"dataSource": "db",
-		"public": true
+  },
+  "Category": {
+    "dataSource": "db",
+    "public": true
   },
   "Attendee": {
-		"dataSource": "db",
-		"public": true
+    "dataSource": "db",
+    "public": true
   },
   "NpmjsDownload": {
-		"dataSource": "db_productive",
-		"public": true
+    "dataSource": "db_cloudant",
+    "public": true
   }
 }

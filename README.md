@@ -25,9 +25,9 @@ The index page also provides some links you can use to retrieve the data via the
 To test the odata server we recommend to use a browser plugin e.g. Postman.
 Here are some sample GET requests:
 
-* http://<host>:3000/odata/Customers?$expand=contacts
-* http://<host>:3000/odata/$metadata
-* http://<host>:3000/odata/People
+* http://\<host\>:3000/odata/Customers?$expand=contacts
+* http://\<host\>:3000/odata/$metadata
+* http://\<host\>:3000/odata/People
 
 ## Docker
 It's also quite easy to run the application in a Docker container. This might be a good idea if you e.g. don't have a

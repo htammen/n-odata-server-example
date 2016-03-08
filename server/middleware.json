@@ -23,10 +23,10 @@
     }
   },
   "files": {
-		"loopback#static": {
-			"params": "$!../client"
-		}
-	},
+    "loopback#static": {
+      "params": "$!../client"
+    }
+  },
   "final": {
     "loopback#urlNotFound": {}
   },

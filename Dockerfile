@@ -6,7 +6,7 @@
 ###
 #########################################
 
-#FROM registry.eu-gb.bluemix.net/ibmnode:latest
+#FROM registry.eu-gb.bluemix.net/ibmnode:4
 #FROM node:4-onbuild
 FROM node:4
 

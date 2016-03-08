@@ -8,5 +8,9 @@
     "name": "db_productive",
     "connector": "memory",
     "file": "storage/data_dbprod.json"
+  },
+  "db_cloudant": {
+    "name": "db_cloudant",
+    "connector": "cloudant"
   }
 }
