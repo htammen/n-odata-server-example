@@ -1,0 +1,42 @@
+{
+  "name": "BusinessTrip",
+  "plural": "BusinessTrips",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Starttime": {
+      "type": "Date",
+			"required": true
+		},
+		"Endtime": {
+			"type": "Date",
+			"required": true
+    },
+    "Location": {
+      "type": "String",
+      "required": true
+		},
+		"Distance": {
+			"type": "Number"
+		},
+		"Breakfast": {
+			"type": "Boolean"
+		},
+		"Lunch": {
+			"type": "Boolean"
+		},
+		"Dinner": {
+			"type": "Boolean"
+		},
+		"Note": {
+			"type": "String"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

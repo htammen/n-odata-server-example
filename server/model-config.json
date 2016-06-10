@@ -4,6 +4,7 @@
       "loopback/common/models",
       "loopback/server/models",
       "../common/models",
+      "../common/models/tammenit",
       "./models"
     ],
     "mixins": [
@@ -62,6 +63,10 @@
   },
   "NpmjsDownload": {
     "dataSource": "db_cloudant",
+    "public": true
+  },
+  "BusinessTrip": {
+    "dataSource": "db",
     "public": true
   }
 }

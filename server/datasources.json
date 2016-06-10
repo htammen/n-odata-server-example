@@ -10,9 +10,9 @@
     "file": "storage/data_dbprod.json"
   },
   "db_cloudant": {
+    "url": "https://9049c33f-db3a-463a-92df-18e3a77d6cd4-bluemix:a6141facba5f7b3403c5a7be9466b18efbe1bc0bd11c2529c60c620ec7e0ab1f@9049c33f-db3a-463a-92df-18e3a77d6cd4-bluemix.cloudant.com",
+    "database": "n-odata-server-example-db",
     "name": "db_cloudant",
-    "connector": "cloudant",
-		"database": "n-odata-server-example-db",
-		"url": "https://9049c33f-db3a-463a-92df-18e3a77d6cd4-bluemix:a6141facba5f7b3403c5a7be9466b18efbe1bc0bd11c2529c60c620ec7e0ab1f@9049c33f-db3a-463a-92df-18e3a77d6cd4-bluemix.cloudant.com"
+    "connector": "cloudant"
   }
 }

@@ -1,7 +1,7 @@
 {
   "ids": {
-    "User": 1,
-    "AccessToken": 1,
+    "User": 2,
+    "AccessToken": 3,
     "ACL": 1,
     "RoleMapping": 1,
     "Role": 1,
@@ -11,11 +11,16 @@
     "Product": 20,
     "ProductDetail": 6,
     "Category": 4,
-    "Attendee": 59
+    "Attendee": 59,
+    "BusinessTrip": 2
   },
   "models": {
-    "User": {},
-    "AccessToken": {},
+    "User": {
+      "1": "{\"password\":\"$2a$10$oD.aMnysYGpe9TIkep8jPeKTbYHAYiJeDCtF7129fi4tgldME5oN6\",\"email\":\"foo@bar.com\",\"id\":1}"
+    },
+    "AccessToken": {
+      "lIPLjixMEF4ER9nhziaX0mcjK0MqtdSb0v1thKOOqzv2EvhSd0TpXEpjX98tHgIl": "{\"id\":\"lIPLjixMEF4ER9nhziaX0mcjK0MqtdSb0v1thKOOqzv2EvhSd0TpXEpjX98tHgIl\",\"ttl\":1209600,\"created\":\"2016-03-09T21:14:13.318Z\",\"userId\":1}"
+    },
     "ACL": {},
     "RoleMapping": {},
     "Role": {},
@@ -171,6 +176,9 @@
       "56": "{\"code\":\"dk\",\"name\":\"Denmark\",\"quantity\":0,\"id\":56}",
       "57": "{\"code\":\"me\",\"name\":\"Montenegro\",\"quantity\":0,\"id\":57}",
       "58": "{\"code\":\"sr\",\"name\":\"Suriname\",\"quantity\":1,\"id\":58}"
+    },
+    "BusinessTrip": {
+      "1": "{\"Starttime\":\"2016-05-05T10:00:00.000Z\",\"Endtime\":\"2016-05-05T20:15:00.000Z\",\"Location\":\"Hannover, EON\",\"Distance\":33,\"Breakfast\":false,\"Lunch\":false,\"Dinner\":false,\"Note\":\"\",\"id\":1}"
     }
   }
 }
