@@ -12,7 +12,7 @@
     "ProductDetail": 6,
     "Category": 4,
     "Attendee": 59,
-    "BusinessTrip": 2
+    "BusinessTrip": 35
   },
   "models": {
     "User": {
@@ -178,7 +178,21 @@
       "58": "{\"code\":\"sr\",\"name\":\"Suriname\",\"quantity\":1,\"id\":58}"
     },
     "BusinessTrip": {
-      "1": "{\"Starttime\":\"2016-05-05T10:00:00.000Z\",\"Endtime\":\"2016-05-05T20:15:00.000Z\",\"Location\":\"Hannover, EON\",\"Distance\":33,\"Breakfast\":false,\"Lunch\":false,\"Dinner\":false,\"Note\":\"\",\"id\":1}"
+      "5": "{\"id\":\"5\",\"Starttime\":\"2016-06-05T22:00:00.000Z\",\"Endtime\":\"1970-01-01T07:00:00.000Z\",\"Location\":\"Paderborn\",\"Customer\":\"Nixdorf\",\"Distance\":125.6,\"Note\":null,\"Breakfast\":false,\"Lunch\":false,\"Dinner\":false}",
+      "22": "{\"id\":\"22\",\"Starttime\":\"2016-05-20T06:00:00.000Z\",\"Endtime\":\"2016-05-20T14:00:00.000Z\",\"Location\":\"Hamburg\",\"Customer\":null,\"Distance\":120.7,\"Note\":null,\"Breakfast\":false,\"Lunch\":false,\"Dinner\":false}",
+      "23": "{\"id\":\"23\",\"Starttime\":\"2016-06-13T05:00:00.000Z\",\"Endtime\":\"2016-06-13T16:00:00.000Z\",\"Location\":\"Göttingen\",\"Customer\":\"Uni\",\"Distance\":104,\"Note\":null,\"Breakfast\":false,\"Lunch\":false,\"Dinner\":false}",
+      "24": "{\"id\":\"24\",\"Starttime\":\"2016-06-13T03:00:00.000Z\",\"Endtime\":\"2016-06-13T19:00:00.000Z\",\"Location\":\"Frankfurt\",\"Customer\":\"Deutsche Börse\",\"Distance\":398,\"Note\":null,\"Breakfast\":false,\"Lunch\":false,\"Dinner\":false}",
+      "25": "{\"id\":\"25\",\"Starttime\":\"2016-06-13T06:00:00.000Z\",\"Endtime\":\"2016-06-13T08:00:00.000Z\",\"Location\":\"Hannover\",\"Customer\":null,\"Distance\":22,\"Note\":null,\"Breakfast\":false,\"Lunch\":false,\"Dinner\":false}",
+      "26": "{\"id\":\"26\",\"Starttime\":\"1970-01-01T07:00:00.000Z\",\"Endtime\":\"2016-06-13T07:00:00.000Z\",\"Location\":\"Hannover\",\"Customer\":null,\"Distance\":23,\"Note\":null,\"Breakfast\":false,\"Lunch\":false,\"Dinner\":false}",
+      "27": "{\"id\":\"27\",\"Starttime\":\"2016-06-13T06:00:00.000Z\",\"Endtime\":\"2016-06-13T15:00:00.000Z\",\"Location\":\"Hannover\",\"Customer\":null,\"Distance\":33,\"Note\":null,\"Breakfast\":false,\"Lunch\":false,\"Dinner\":false}",
+      "28": "{\"id\":\"28\",\"Starttime\":\"2016-06-13T06:00:00.000Z\",\"Endtime\":\"2016-06-13T18:00:00.000Z\",\"Location\":\"Hannover\",\"Customer\":null,\"Distance\":33.4,\"Note\":null,\"Breakfast\":false,\"Lunch\":false,\"Dinner\":false}",
+      "29": "{\"id\":\"29\",\"Starttime\":\"2016-06-13T06:10:00.000Z\",\"Endtime\":\"2016-06-13T11:30:00.000Z\",\"Location\":\"Hannover\",\"Customer\":\"Conti\",\"Distance\":33.5,\"Note\":null,\"Breakfast\":false,\"Lunch\":false,\"Dinner\":false}",
+      "33": "{\"id\":\"33\",\"Starttime\":\"2016-06-14T06:00:00.000Z\",\"Endtime\":\"2016-06-14T16:00:00.000Z\",\"Location\":\"Celle\",\"Customer\":\"Wasa\",\"Distance\":28,\"Note\":null,\"Breakfast\":false,\"Lunch\":false,\"Dinner\":false}",
+      "34": "{\"id\":\"34\",\"Starttime\":\"2016-06-10T05:00:00.000Z\",\"Endtime\":\"2016-06-10T16:00:00.000Z\",\"Location\":\"Hamburg\",\"Customer\":\"Baiersdorf\",\"Distance\":140,\"Note\":null,\"Breakfast\":false,\"Lunch\":false,\"Dinner\":false}",
+      "7e556a70-2fb2-11e6-919e-05976e3b23e5": "{\"id\":\"7e556a70-2fb2-11e6-919e-05976e3b23e5\",\"Starttime\":\"2016-05-09T00:00:00.000Z\",\"Endtime\":\"2016-05-09T00:00:00.000Z\",\"Location\":\"Hannover\",\"Distance\":25,\"Note\":\"string\",\"Customer\":\"EBS\"}",
+      "7e556a70-2fb2-11e6-919e-05976e3b23e6": "{\"id\":\"7e556a70-2fb2-11e6-919e-05976e3b23e6\",\"Starttime\":\"2016-05-10T00:00:00.000Z\",\"Endtime\":\"2016-05-10T00:00:00.000Z\",\"Location\":\"Celle\",\"Distance\":26,\"Note\":\"string\",\"Breakfast\":true,\"Lunch\":false,\"Dinner\":true}",
+      "7e556a70-2fb2-11e6-919e-05976e3b23e7": "{\"id\":\"7e556a70-2fb2-11e6-919e-05976e3b23e7\",\"Starttime\":\"2016-05-12T00:00:00.000Z\",\"Endtime\":\"2016-05-12T00:00:00.000Z\",\"Location\":\"Hamburg\",\"Distance\":113,\"Note\":\"string\",\"Breakfast\":false,\"Lunch\":false,\"Dinner\":false}",
+      "7e556a70-2fb2-11e6-919e-05976e3b23e8": "{\"id\":\"7e556a70-2fb2-11e6-919e-05976e3b23e8\",\"Starttime\":\"2016-05-14T09:00:00.000Z\",\"Endtime\":\"2016-05-14T17:00:00.000Z\",\"Location\":\"Bremen\",\"Distance\":102,\"Note\":\"string\",\"Breakfast\":false,\"Lunch\":false,\"Dinner\":false}"
     }
   }
 }

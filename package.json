@@ -16,7 +16,7 @@
     "loopback-component-explorer": "^2.1.0",
     "loopback-connector-cloudant": "git+https://github.com/htammen/loopback-connector-cloudant.git",
     "loopback-datasource-juggler": "^2.39.0",
-    "n-odata-server": "^0.3.7",
+    "n-odata-server": "^0.3.9",
     "serve-favicon": "^2.0.1"
   },
   "devDependencies": {
