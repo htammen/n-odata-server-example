@@ -1,6 +1,6 @@
 {
   "name": "n-odata-server-example",
-  "version": "0.0.1",
+  "version": "0.4.0",
   "main": "server/server.js",
   "scripts": {
     "start": "node ./server/server.js",
@@ -15,8 +15,9 @@
     "loopback-boot": "^2.6.5",
     "loopback-component-explorer": "^2.1.0",
     "loopback-connector-cloudant": "git+https://github.com/htammen/loopback-connector-cloudant.git",
+    "loopback-context": "^1.0.0",
     "loopback-datasource-juggler": "^2.39.0",
-    "n-odata-server": "^0.3.9",
+    "n-odata-server": "^0.4.0",
     "serve-favicon": "^2.0.1"
   },
   "devDependencies": {
@@ -24,7 +25,8 @@
     "chai-json-schema": "^1.2.0",
     "jshint": "^2.5.6",
     "loopback-testing": "^1.2.0",
-    "mocha": "^2.3.3"
+    "mocha": "^2.3.3",
+    "typescript": "^1.8.10"
   },
   "repository": {
     "type": "",

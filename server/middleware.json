@@ -10,12 +10,20 @@
         "credentials": true,
         "maxAge": 86400
       }
-    }
+    },
+    "loopback-context#per-request": {}
   },
   "session": {},
-  "auth": {},
+  "auth": {
+    "loopback#token": {}
+  },
   "parse": {},
   "routes": {
+    "n-odata-server#odata": {
+      "paths": [
+        "/odata/*"
+      ]
+    },
     "loopback#rest": {
       "paths": [
         "${restApiRoot}"

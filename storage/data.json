@@ -1,29 +1,41 @@
 {
   "ids": {
-    "User": 2,
-    "AccessToken": 3,
+    "User": 8,
+    "AccessToken": 10,
     "ACL": 1,
-    "RoleMapping": 1,
-    "Role": 1,
-    "Person": 16,
-    "Customer": 35,
-    "Contact": 43,
+    "RoleMapping": 2,
+    "Role": 2,
+    "Person": 23,
+    "Customer": 36,
+    "Contact": 46,
     "Product": 20,
     "ProductDetail": 6,
     "Category": 4,
     "Attendee": 59,
-    "BusinessTrip": 35
+    "BusinessTrip": 41
   },
   "models": {
     "User": {
-      "1": "{\"password\":\"$2a$10$oD.aMnysYGpe9TIkep8jPeKTbYHAYiJeDCtF7129fi4tgldME5oN6\",\"email\":\"foo@bar.com\",\"id\":1}"
+      "1": "{\"password\":\"$2a$10$oD.aMnysYGpe9TIkep8jPeKTbYHAYiJeDCtF7129fi4tgldME5oN6\",\"email\":\"foo@bar.com\",\"id\":1}",
+      "2": "{\"password\":\"$2a$10$QszBcNYf4vG2vcnLzZ3EqOtdKG2orbWZo/ZJQ.fi2usD1euethpwO\",\"email\":\"helmut.tammen@gmail.com\",\"id\":2}",
+      "3": "{\"password\":\"$2a$10$trVtz8s3pUHaaMAFBF7hBeBgsUJIAjgSnKGLBLK1sm5LNtFjfrq2K\",\"email\":\"admin@tammen-it-solutions.de\",\"id\":3}",
+      "4": "{\"password\":\"$2a$10$BzCPUtM1R2f8nx3zABS94uuMhWWwLgY578W9Kxh.489NtzgkDEsfm\",\"email\":\"user_x1@tammen-it-solutions.de\",\"id\":4}",
+      "5": "{\"password\":\"$2a$10$TvVwBgrG1xMYXsadepM38uW9dE0ozJhgfmDe/LsHilQdmA6ZlwekG\",\"email\":\"user1@tammen-it-solutions.de\",\"id\":5}",
+      "6": "{\"username\":\"testuser\",\"password\":\"$2a$10$ejKZ4GodlPHFc7xlQpi8MuAtTmORGHpXwwjQRO4Fnn.Q.MB5w7Ymq\",\"email\":\"testuser@abc.de\",\"emailVerified\":false,\"id\":6}",
+      "7": "{\"username\":\"testuser1\",\"password\":\"$2a$10$rE8rQI/mhjwAIvijKVlRmeQ3hCvBgeRZbNbonYr/npHN0jTFohvbq\",\"email\":\"testuser1@abc.de\",\"id\":7}"
     },
     "AccessToken": {
-      "lIPLjixMEF4ER9nhziaX0mcjK0MqtdSb0v1thKOOqzv2EvhSd0TpXEpjX98tHgIl": "{\"id\":\"lIPLjixMEF4ER9nhziaX0mcjK0MqtdSb0v1thKOOqzv2EvhSd0TpXEpjX98tHgIl\",\"ttl\":1209600,\"created\":\"2016-03-09T21:14:13.318Z\",\"userId\":1}"
+      "3BVT9fsC5ljbubLfZ8uc1T3juc5dFw7jf6SrfAfzFPoLXNgKDiTVs5o9DNzDajDJ": "{\"id\":\"3BVT9fsC5ljbubLfZ8uc1T3juc5dFw7jf6SrfAfzFPoLXNgKDiTVs5o9DNzDajDJ\",\"ttl\":1209600,\"created\":\"2016-08-03T15:33:43.493Z\",\"userId\":2}",
+      "yE1OCPVTHmGERUwDFegJawCTPV24hr8OTUGgGbNEiZSRoS3rLjJPoZt3WOdCAd4o": "{\"id\":\"yE1OCPVTHmGERUwDFegJawCTPV24hr8OTUGgGbNEiZSRoS3rLjJPoZt3WOdCAd4o\",\"ttl\":1209600,\"created\":\"2016-10-17T09:18:24.302Z\",\"userId\":5}",
+      "4nwd3XcBVbGUJ4WI9Ccb0turrGME0VRwwGZlMHPDLA0hpY1CSyKd0FHzUpwCqDif": "{\"id\":\"4nwd3XcBVbGUJ4WI9Ccb0turrGME0VRwwGZlMHPDLA0hpY1CSyKd0FHzUpwCqDif\",\"ttl\":1209600,\"created\":\"2016-10-17T11:05:56.311Z\",\"userId\":5}"
     },
     "ACL": {},
-    "RoleMapping": {},
-    "Role": {},
+    "RoleMapping": {
+      "1": "{\"principalType\":\"USER\",\"principalId\":\"5\",\"roleId\":1,\"id\":1}"
+    },
+    "Role": {
+      "1": "{\"name\":\"r_businesstrips_access\",\"description\":\"grants general access to businesstrips\",\"created\":\"2016-08-29T17:23:42.844Z\",\"modified\":\"2016-08-29T17:23:42.844Z\",\"id\":1}"
+    },
     "Person": {
       "1": "{\"firstname\":\"Nadine\",\"lastname\":\"Meier\",\"gender\":null,\"age\":null,\"id\":1}",
       "2": "{\"firstname\":\"Helmut\",\"lastname\":\"Tammen\",\"gender\":null,\"age\":null,\"id\":2}",
@@ -39,7 +51,12 @@
       "12": "{\"firstname\":\"Thomas\",\"lastname\":\"Malchewitz\",\"gender\":null,\"age\":null,\"id\":12}",
       "13": "{\"firstname\":\"Johannes\",\"lastname\":\"Hamel\",\"gender\":null,\"age\":null,\"id\":13}",
       "14": "{\"firstname\":\"Johannes\",\"lastname\":\"Hamel\",\"gender\":null,\"age\":null,\"id\":14}",
-      "15": "{\"firstname\":\"Johannes\",\"lastname\":\"Hamel\",\"gender\":null,\"age\":null,\"id\":15}"
+      "15": "{\"firstname\":\"Johannes\",\"lastname\":\"Hamel\",\"gender\":null,\"age\":null,\"id\":15}",
+      "16": "{\"firstname\":\"Helmut\",\"lastname\":\"Tammen\",\"gender\":null,\"age\":null,\"id\":16}",
+      "17": "{\"firstname\":\"Helmut\",\"lastname\":\"Tammen\",\"gender\":null,\"age\":null,\"id\":17}",
+      "18": "{\"firstname\":\"Helmut\",\"lastname\":\"Tammen\",\"gender\":null,\"age\":null,\"id\":18}",
+      "19": "{\"firstname\":\"Helmut\",\"lastname\":\"Tammen\",\"gender\":null,\"age\":null,\"id\":19}",
+      "20": "{\"firstname\":\"Johannes\",\"lastname\":\"Hamel\",\"gender\":null,\"age\":null,\"id\":20}"
     },
     "Customer": {
       "1": "{\"CompanyName\":\"Alfreds Futterkiste\",\"ContactName\":\"Maria Anders\",\"ContactTitle\":\"Sales Representative\",\"Address\":\"Obere Str. 57\",\"City\":\"Hannover\",\"Region\":null,\"PostalCode\":\"30159\",\"Country\":\"Germany\",\"Phone\":\"0511-0074321\",\"Fax\":\"0511-0076545\",\"EMail\":null,\"Rating\":4.4,\"id\":1}",
@@ -65,7 +82,8 @@
       "21": "{\"CompanyName\":\"Tammen IT Solutions\",\"ContactName\":\"Helmut Tammen\",\"ContactTitle\":\"CIO\",\"Address\":\"Pastor-Badenhop-Weg 5\",\"City\":\"Burgwedel\",\"Region\":\"Niedersachsen\",\"PostalCode\":\"30938\",\"Country\":\"Germany\",\"Phone\":\"+49 170 8822491\",\"Fax\":null,\"EMail\":\"h.tammen@tammen-it-solutions.de\",\"Rating\":4,\"id\":21}",
       "22": "{\"CompanyName\":\"mata solutions gmbh\",\"ContactName\":\"Ralf Marczoch\",\"ContactTitle\":\"CEO\",\"Address\":\"Herrenstraße 3-5\",\"City\":\"Hannover\",\"Region\":\"Niedersachsen\",\"PostalCode\":\"30159\",\"Country\":\"Germany\",\"Phone\":null,\"Fax\":null,\"EMail\":\"r.marczoch@mata-solutions.de\",\"Rating\":4,\"id\":22}",
       "23": "{\"CompanyName\":\"Einfach Mal Weg\",\"ContactName\":\"Mr. Weg\",\"ContactTitle\":\"Chief Officer\",\"Address\":\"Am Weinberg\",\"City\":\"Würzburg\",\"Region\":\"Bayern\",\"PostalCode\":\"89450\",\"Country\":\"Germany\",\"Phone\":null,\"Fax\":null,\"EMail\":null,\"Rating\":3.6,\"id\":23}",
-      "34": "{\"CompanyName\":\"Alfreds Futterkiste\",\"ContactName\":\"Maria Anders\",\"ContactTitle\":\"Sales Representative\",\"Address\":\"Obere Str. 57\",\"City\":\"Hannover\",\"Region\":null,\"PostalCode\":\"30159\",\"Country\":\"Germany\",\"Phone\":\"0511-0074321\",\"Fax\":\"0511-0076545\",\"EMail\":\"info@tammen-it-solutions.de\",\"Rating\":4.4,\"id\":34}"
+      "34": "{\"CompanyName\":\"Alfreds Futterkiste\",\"ContactName\":\"Maria Anders\",\"ContactTitle\":\"Sales Representative\",\"Address\":\"Obere Str. 57\",\"City\":\"Hannover\",\"Region\":null,\"PostalCode\":\"30159\",\"Country\":\"Germany\",\"Phone\":\"0511-0074321\",\"Fax\":\"0511-0076545\",\"EMail\":\"info@tammen-it-solutions.de\",\"Rating\":4.4,\"id\":34}",
+      "35": "{\"CompanyName\":\"Helmuts Vegetarier Shop\",\"ContactName\":\"Helmut Tammen\",\"ContactTitle\":\"Sales Representative\",\"Address\":\"Unterer Weg 4\",\"City\":\"Burgwedel\",\"Region\":null,\"PostalCode\":\"30938\",\"Country\":\"Germany\",\"Phone\":\"0539-100001\",\"Fax\":\"0539-9000009\",\"EMail\":\"info@tammen-it-solutions.de\",\"Rating\":4.6,\"id\":35}"
     },
     "Contact": {
       "1": "{\"firstname\":\"Fridolin\",\"lastname\":\"Firestone\",\"phone\":\"+49 511 999999\",\"mobile\":\"+49 170 888888\",\"email\":\"f.firestoner@veryfast.com\",\"address\":\"[object Object]\",\"id\":1,\"customerId\":3}",
@@ -83,11 +101,14 @@
       "39": "{\"firstname\":\"Helmut\",\"lastname\":\"Tammen\",\"phone\":\"s.above\",\"mobile\":\"+49 170 8822491\",\"email\":\"helmut.tammen@gmail.com\",\"address\":\"Home\",\"id\":39,\"customerId\":3}",
       "40": "{\"firstname\":\"Werner\",\"lastname\":\"Wüterich\",\"phone\":\"0511 123456\",\"mobile\":\"+49 170 8822491\",\"email\":\"helmut.tammen@gmx.de\",\"address\":\"My Home\",\"id\":40,\"customerId\":23}",
       "41": "{\"firstname\":\"Helmut\",\"lastname\":\"Tammen\",\"phone\":\"s.above\",\"mobile\":\"+49 170 8822491\",\"email\":\"helmut.tammen@gmail.com\",\"address\":\"Home\",\"id\":41,\"customerId\":2}",
-      "42": "{\"firstname\":\"Helmut\",\"lastname\":\"Tammen\",\"phone\":\"s.above\",\"mobile\":\"+49 170 8822491\",\"email\":\"helmut.tammen@gmail.com\",\"address\":\"Home\",\"id\":42,\"customerId\":3}"
+      "42": "{\"firstname\":\"Helmut\",\"lastname\":\"Tammen\",\"phone\":\"s.above\",\"mobile\":\"+49 170 8822491\",\"email\":\"helmut.tammen@gmail.com\",\"address\":\"Home\",\"id\":42,\"customerId\":3}",
+      "43": "{\"firstname\":\"Helmut\",\"lastname\":\"Tammen\",\"phone\":\"s.above\",\"mobile\":\"+49 170 8822491\",\"email\":\"helmut.tammen@gmail.com\",\"address\":\"Home\",\"id\":43,\"customerId\":35}",
+      "44": "{\"firstname\":\"Helmut\",\"lastname\":\"Tammen\",\"phone\":\"+49 511 1233321\",\"mobile\":\"+49 170 8822491\",\"email\":\"h.tammen@tammen-it-solutions.de\",\"address\":\"Business\",\"id\":44,\"customerId\":35}",
+      "45": "{\"firstname\":\"Helmut\",\"lastname\":\"Tammen\",\"phone\":\"s.above\",\"mobile\":\"+49 170 8822491\",\"email\":\"helmut.tammen@gmail.com\",\"address\":\"Home\",\"id\":45,\"customerId\":3}"
     },
     "Product": {
       "1": "{\"Name\":\"Bread\",\"Description\":\"Whole grain bread\",\"ReleaseDate\":null,\"DiscontinuedDate\":null,\"Rating\":4,\"Price\":2.5,\"CategoryId\":1,\"id\":1}",
-      "2": "{\"Name\":\"Soja Milk\",\"Description\":\"Vegan milk\",\"ReleaseDate\":\"2016-01-28T14:52:00.000Z\",\"DiscontinuedDate\":null,\"Rating\":4.6,\"Price\":0.89,\"CategoryId\":2,\"id\":2}",
+      "2": "{\"Name\":\"Cow Milk\",\"Description\":\"milk\",\"ReleaseDate\":\"2016-01-28T14:52:00.000Z\",\"DiscontinuedDate\":null,\"Rating\":4.6,\"Price\":0.89,\"CategoryId\":2,\"id\":2}",
       "3": "{\"Name\":\"Vint soda\",\"Description\":\"Americana Variety - Mix of 6 flavors\",\"ReleaseDate\":null,\"DiscontinuedDate\":null,\"Rating\":3,\"Price\":20.9,\"CategoryId\":2,\"id\":3}",
       "4": "{\"Name\":\"Havina Cola\",\"Description\":\"The Original Key Lime Cola\",\"ReleaseDate\":null,\"DiscontinuedDate\":null,\"Rating\":3,\"Price\":19.9,\"CategoryId\":3,\"id\":4}",
       "5": "{\"Name\":\"Soja Milk\",\"Description\":\"Vegan milk\",\"ReleaseDate\":\"2016-01-28T14:52:00.000Z\",\"DiscontinuedDate\":null,\"Rating\":4.6,\"Price\":0.89,\"CategoryId\":null,\"id\":5}",
@@ -189,6 +210,7 @@
       "29": "{\"id\":\"29\",\"Starttime\":\"2016-06-13T06:10:00.000Z\",\"Endtime\":\"2016-06-13T11:30:00.000Z\",\"Location\":\"Hannover\",\"Customer\":\"Conti\",\"Distance\":33.5,\"Note\":null,\"Breakfast\":false,\"Lunch\":false,\"Dinner\":false}",
       "33": "{\"id\":\"33\",\"Starttime\":\"2016-06-14T06:00:00.000Z\",\"Endtime\":\"2016-06-14T16:00:00.000Z\",\"Location\":\"Celle\",\"Customer\":\"Wasa\",\"Distance\":28,\"Note\":null,\"Breakfast\":false,\"Lunch\":false,\"Dinner\":false}",
       "34": "{\"id\":\"34\",\"Starttime\":\"2016-06-10T05:00:00.000Z\",\"Endtime\":\"2016-06-10T16:00:00.000Z\",\"Location\":\"Hamburg\",\"Customer\":\"Baiersdorf\",\"Distance\":140,\"Note\":null,\"Breakfast\":false,\"Lunch\":false,\"Dinner\":false}",
+      "35": "{\"id\":\"35\",\"Starttime\":\"2016-05-20T06:00:00.000Z\",\"Endtime\":\"2016-05-20T14:00:00.000Z\",\"Location\":\"Paris\",\"Customer\":null,\"Distance\":800,\"Note\":\"Hello Paris\",\"Breakfast\":false,\"Lunch\":false,\"Dinner\":false}",
       "7e556a70-2fb2-11e6-919e-05976e3b23e5": "{\"id\":\"7e556a70-2fb2-11e6-919e-05976e3b23e5\",\"Starttime\":\"2016-05-09T00:00:00.000Z\",\"Endtime\":\"2016-05-09T00:00:00.000Z\",\"Location\":\"Hannover\",\"Distance\":25,\"Note\":\"string\",\"Customer\":\"EBS\"}",
       "7e556a70-2fb2-11e6-919e-05976e3b23e6": "{\"id\":\"7e556a70-2fb2-11e6-919e-05976e3b23e6\",\"Starttime\":\"2016-05-10T00:00:00.000Z\",\"Endtime\":\"2016-05-10T00:00:00.000Z\",\"Location\":\"Celle\",\"Distance\":26,\"Note\":\"string\",\"Breakfast\":true,\"Lunch\":false,\"Dinner\":true}",
       "7e556a70-2fb2-11e6-919e-05976e3b23e7": "{\"id\":\"7e556a70-2fb2-11e6-919e-05976e3b23e7\",\"Starttime\":\"2016-05-12T00:00:00.000Z\",\"Endtime\":\"2016-05-12T00:00:00.000Z\",\"Location\":\"Hamburg\",\"Distance\":113,\"Note\":\"string\",\"Breakfast\":false,\"Lunch\":false,\"Dinner\":false}",

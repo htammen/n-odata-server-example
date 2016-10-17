@@ -8,30 +8,30 @@
   "persistUndefinedAsNull": true,
   "properties": {
     "id": {
-      "id": true,
       "type": "string",
+      "id": true,
       "defaultFn": "guid"
     },
     "Starttime": {
-          "type": "date",
-      	"required": true
-  	},
-  	"Endtime": {
-  		"type": "date",
-  		"required": true
+      "type": "date",
+      "required": true
+    },
+    "Endtime": {
+      "type": "date",
+      "required": true
     },
     "Location": {
-        "type": "string",
-        "required": true
-  	},
+      "type": "string",
+      "required": true
+    },
     "Customer": {
-        "type": "string"
-  	},
-  	"Distance": {
-  		"type": "number"
-  	},
-  	"Note": {
-  		"type": "string"
+      "type": "string"
+    },
+    "Distance": {
+      "type": "number"
+    },
+    "Note": {
+      "type": "string"
     },
     "Breakfast": {
       "type": "Boolean",
@@ -48,6 +48,19 @@
   },
   "validations": [],
   "relations": {},
-  "acls": [],
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "r_businesstrips_access",
+      "permission": "ALLOW"
+    },
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "DENY"
+    }
+  ],
   "methods": {}
 }
