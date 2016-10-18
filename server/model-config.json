@@ -62,7 +62,7 @@
     "public": true
   },
   "NpmjsDownload": {
-    "dataSource": "db_cloudant",
+    "dataSource": "db",
     "public": true
   },
   "BusinessTrip": {

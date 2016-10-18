@@ -11,6 +11,7 @@
     "body-parser": "^1.14.1",
     "compression": "^1.0.3",
     "cors": "^2.5.2",
+    "log4js": "^0.6.38",
     "loopback": "^2.22.0",
     "loopback-boot": "^2.6.5",
     "loopback-component-explorer": "^2.1.0",
